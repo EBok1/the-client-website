@@ -4,15 +4,20 @@ toggle = body.querySelector(".toggle"),
 searchBtn = body.querySelector(".search-box"),
 modeSwitch = body.querySelector(".toggle-switch"),
 modeText = body.querySelector(".mode-text");
+menuButton = body.querySelector("button");
 
-
-toggle.addEventListener("click" , () =>{
-    sidebar.classList.toggle("close");
+menuButton.addEventListener("click" , () =>{
+    sidebar.classList.toggle("click");
 })
 
-searchBtn.addEventListener("click" , () =>{
-    sidebar.classList.remove("close");
-})
+
+// toggle.addEventListener("click" , () =>{
+//     sidebar.classList.toggle("close");
+// })
+
+// searchBtn.addEventListener("click" , () =>{
+//     sidebar.classList.remove("close");
+// })
 
 modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");
