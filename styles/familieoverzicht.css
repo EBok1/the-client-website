@@ -458,6 +458,11 @@ button {
 
 h1{
     font-size:30px; 
+    padding-left: 0.5em;
+}
+
+h2{
+    padding-left: 1em;
 }
 
 p{

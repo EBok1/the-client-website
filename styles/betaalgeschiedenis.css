@@ -404,3 +404,33 @@ button {
     }
 }
 
+h2{
+    padding-left: 1em;
+    color: var(--primary-color);
+}
+
+.tekst p{
+    padding: 1em;
+    white-space: pre-line;
+    line-height: 2em;
+}
+
+.book-list p{
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+}
+
+main ul.book-list{
+    list-style: none;
+    gap:1em;
+    
+}
+
+main ul.book-list ul {
+    list-style: none;
+}
+
+#book-img{
+    max-width: 10em;
+    padding: 0.5em;
+}

@@ -331,12 +331,11 @@ body.dark .switch::before{
     position: absolute;
     top: 0;
     top: 0;
-    left: 250px;
     height: 100vh;
-    width: calc(100% - 250px);
     background-color: var(--body-color);
     transition: var(--tran-05);
 }
+
 .home .text{
     font-size: 30px;
     font-weight: 500;
@@ -375,8 +374,11 @@ button {
 
 
 /* zorgt voor bepaalde acties als het scherm kleiner is dan 30em */
-@media (width < 30em) {
+@media (width < 35em) {
    
+    .home{
+        left: 25px;
+    }
     /* zorgt dat het menu niet zichtbaar is als het scherm kleiner is dan 30em  */
     .sidebar{
         visibility: hidden;
@@ -389,6 +391,18 @@ button {
         background: var(--sidebar-color);
         transition: var(--tran-05);
         z-index: 100;  
+        animation: Menu;
+        animation-duration: 1s;
+    }
+
+    @keyframes Menu {
+        0% {
+            opacity: 100%;
+        }
+
+        100% {
+            opacity: 0%;
+        }
     }
 
     .sidebar.click{
@@ -401,9 +415,57 @@ button {
         padding: 1em;
         border-style: solid;
         border-radius: 50%;
+        position: fixed;
+        top: 1em;
+        right: 1em;
+        z-index: 100;
+    }
+}
+
+@media(width > 30em){
+    .home{
+        position: absolute;
+        top: 0;
+        top: 0;
+        left: 250px;
+        height: 100vh;
+        width: calc(100% - 250px);
+        background-color: var(--body-color);
+        transition: var(--tran-05);
     }
 }
 
 h2{
     padding-left: 1em;
+    color: var(--primary-color);
+}
+
+h3{
+    padding: 1em;
+}
+
+.tekst p{
+    padding: 1em;
+    white-space: pre-line;
+    line-height: 2em;
+}
+
+.book-list p{
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+}
+
+main ul.book-list{
+    list-style: none;
+    gap:1em;
+    
+}
+
+main ul.book-list ul {
+    list-style: none;
+}
+
+#book-img{
+    max-width: 10em;
+    padding: 0.5em;
 }
