@@ -6,10 +6,13 @@ modeSwitch = body.querySelector(".toggle-switch"),
 modeText = body.querySelector(".mode-text");
 menuButton = body.querySelector("button");
 
+// om het menu zichtbaar en niet zichtbaar te krijgen
 menuButton.addEventListener("click" , () =>{
     sidebar.classList.toggle("click");
 })
 
+
+// om de sitebar dicht en open te klikken
 
 // toggle.addEventListener("click" , () =>{
 //     sidebar.classList.toggle("close");

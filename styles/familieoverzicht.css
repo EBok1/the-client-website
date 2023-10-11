@@ -355,7 +355,7 @@ body.dark .switch::before{
     font-size: 30px;
     font-weight: 500;
     color: var(--text-color);
-    padding: 12px 60px;
+    padding: 12px 20px;
 }
 
 /* .sidebar.close ~ .home{
@@ -455,8 +455,22 @@ button {
     gap: 1em; 
 } */
 
+
+h1{
+    font-size:30px; 
+}
+
+p{
+    padding: 0.5em;
+}
+
 main ul.book-list{
     list-style: none;
+    display: flex;
+    overflow-x: scroll;
+    gap:1em;
+    scroll-snap-type:x mandatory;
+    overscroll-behavior-x: contain;
 }
 
 main ul.book-list ul {
@@ -464,13 +478,14 @@ main ul.book-list ul {
 }
 
 #book-img{
-    max-width: 8em;
+    max-width: 10em;
+    padding: 0.5em;
 }
 
-@media(width > 30em){
+/* @media(width > 30em){
     main ul.book-list{
         display: flex;
         overflow-x: scroll;
         gap:1em;
     }
-}
+} */

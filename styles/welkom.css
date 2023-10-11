@@ -404,3 +404,12 @@ button {
     }
 }
 
+h2{
+    padding-left: 1em;
+    color: var(--primary-color);
+}
+p{
+    padding: 1em;
+    white-space: pre-line;
+    line-height: 2em;
+}
