@@ -391,13 +391,13 @@ button {
     background-color: violet;
     grid-area: ul;
 } */
-/* zorgt voor bepaalde acties als het scherm kleiner is dan 30em */
+/* zorgt voor bepaalde acties als het scherm kleiner is dan 35em */
 @media (width < 35em) {
    
     .home{
         left: 25px;
     }
-    /* zorgt dat het menu niet zichtbaar is als het scherm kleiner is dan 30em  */
+    /* zorgt dat het menu niet zichtbaar is als het scherm kleiner is dan 35em  */
     .sidebar{
         visibility: hidden;
         position: fixed;
@@ -427,7 +427,7 @@ button {
         visibility: visible;
     }
     
-    /* zorgt dat de button zichtbaar is als het scherm kleiner is dan 30em */
+    /* zorgt dat de button zichtbaar is als het scherm kleiner is dan 35em */
     button{
         visibility: visible;
         padding: 1em;
@@ -437,36 +437,32 @@ button {
         top: 1em;
         right: 1em;
         z-index: 100;
+        cursor: pointer;
     }
+
+
+    .book-list{
+        width: 22em;
+    }
+
 }
-
-
-/* 
-.book-overview ul li{ 
-    max-width: 25em;
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-
-/* ul{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1em; 
-} */
 
 
 h1{
     font-size:30px; 
     padding-left: 0.5em;
+    color: var(--primary-color);
+    font-size: 2em;
 }
 
 h2{
     padding-left: 1em;
+    font-size: 1.5em;
 }
 
 p{
-    padding: 0.5em;
+    padding-left: 1em;
+    padding-bottom: 0.2em;
 }
 
 main ul.book-list{
@@ -476,15 +472,23 @@ main ul.book-list{
     gap:1em;
     scroll-snap-type:x mandatory;
     overscroll-behavior-x: contain;
+    padding-left: 1em;
+    
+}
+
+
+.book-list li{
+    background-color: var(--primary-color-light);
 }
 
 main ul.book-list ul {
     list-style: none;
+    
 }
 
 #book-img{
     max-width: 10em;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 /* @media(width > 30em){
@@ -494,3 +498,4 @@ main ul.book-list ul {
         gap:1em;
     }
 } */
+
