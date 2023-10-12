@@ -6,28 +6,34 @@ Famlieoverzicht abonnementen ontwerpen en ontwikkelen.
 
 ## Inhoudsopgave
   * [Beschrijving](#beschrijving)
-  * [User-Story](#Userstory)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
-
-## User-story
-Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
-Mijn opdracht was om een familieoverzicht voor OBA te maken. Ik heb dit gedaan door na de inlogpagina een overzicht te maken van alle gebruikers. Als toevoeging kun je als hoofdgebruiker zien welke boeken er geleend worden door de rest van de familieleden. Deze kun je zien in het familieoverzicht. 
+**User-story:** Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
 
-(Ik ben begonnen met mobile-version, het is hierdoor makkelijker om vervolgens desktop-version te maken. anders om is dit lastiger.)
+Mijn opdracht was om een familieoverzicht voor OBA te maken. Ik heb dit gedaan door na de inlogpagina een overzicht te maken van alle gebruikers. Daarnaast kun je als hoofdgebruiker zien welke boeken er geleend worden door de rest van de familieleden en wanneer deze weer ingeleverd moeten worden. Dit kun je zien in het familieoverzicht. 
+Verder ben ik begonnen met een op mobiele versie, hierdoor zou het makkelijker zijn om vervolgens een desktop versie te maken.  
 
-In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
+**Mobiele versie:**
 
-Deze sprint ben ik helemaal opnieuw begonnen op advies van de leraar. Dit zodat ik leer om eerst te bouwen voor de mobiel. Ik heb voor deze sprint gekozen voor twee verschillende interacties/animaties. Dit is het in en uitklappen van de navigatie en het aanzetten van dark mode. Voor meer toegankelijkheid heb ik gekozen om een dark mode te maken (ik wilde dit ook in de vorige sprint doen). Ik heb een toggle animatie gemaakt dat als je op de knop klikt, de toggle naar rechts gaat, en wanneer je er nogmaals op klikt, de toggle weer terug naar links gaat. Voor de navigatie heb ik iets soortgelijks gemaakt. Wanneer je op de knop drukt, gaat de navigatie zichzelf inklappen waardoor je alleen nog de icoontjes ziet staan. Wanneer je weer op de knop drukt, klap de navigatie weer uit en zie je meer informatie. Hieronder zal ik de animaties laten zien:
+<img width="335" alt="Schermafbeelding 2023-10-12 om 12 14 48" src="https://github.com/EBok1/the-client-website/assets/144004887/d755dca3-745e-4eb3-a81e-2fa4c5a370b0">
+<img width="337" alt="Schermafbeelding 2023-10-12 om 12 15 17" src="https://github.com/EBok1/the-client-website/assets/144004887/f178d45b-bc23-4c7a-8150-b52c0c245a96">
+
+**Desktop versie:**
+
+<img width="942" alt="Schermafbeelding 2023-10-12 om 12 14 20" src="https://github.com/EBok1/the-client-website/assets/144004887/7e25d777-36e4-4ab0-bec0-b9a5d04008e8">
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+- Visual studio code
+- Mobile first ontworpen
+- Responsive
 
 ## Bronnen
 
