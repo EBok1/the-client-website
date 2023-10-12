@@ -1,8 +1,7 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# Mijn OBA
+# Familieoverzicht van abonnementen voor de Openbare Bibliotheek Amsterdam 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-Famlieoverzicht abonnementen ontwerpen en ontwikkelen. 
 
 ## Inhoudsopgave
   * [Beschrijving](#beschrijving)
@@ -31,11 +30,12 @@ Verder ben ik begonnen met een op mobiele versie, hierdoor zou het makkelijker z
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-- Visual studio code
 - Mobile first ontworpen
 - Responsive
 
 ## Bronnen
+https://amberhva.github.io/fix-the-flow-interactive-website/ (webiste template)
+https://www.oba.nl/
 
 ## Licentie
 This project is licensed under the terms of the [MIT license](./LICENSE).
