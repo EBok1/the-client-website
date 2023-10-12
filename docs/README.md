@@ -35,6 +35,7 @@ Verder ben ik begonnen met een op mobiele versie, hierdoor zou het makkelijker z
 
 ## Bronnen
 https://amberhva.github.io/fix-the-flow-interactive-website/ (webiste template)
+
 https://www.oba.nl/
 
 ## Licentie
